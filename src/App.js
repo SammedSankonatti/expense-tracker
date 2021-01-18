@@ -3,7 +3,7 @@ import React from 'react'
 function App() {
   return (
     <div >
-        <h2> App</h2>
+        <h2> EXPENSE TRACKER</h2>
     </div>
   )
 }

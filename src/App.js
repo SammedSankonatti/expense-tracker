@@ -10,13 +10,13 @@ function App() {
     <div >
         <Grid className={classes.grid} container spacing={0} alignItems="center" justify="center" style={{height:'100vh'}} >
             <Grid item xs={12} sm={4}>
-                <Details />
+                <Details title="Income" />
             </Grid>
             <Grid item xs={12} sm={4}>
                 main
             </Grid>
             <Grid item xs={12} sm={4}>
-                <Details />
+                <Details title="Expense" />
             </Grid>
         </Grid>
     </div>

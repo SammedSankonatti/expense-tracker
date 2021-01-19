@@ -1,6 +1,13 @@
 import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles((theme) => ({
+  colour:{
+    color:'black',
+    background: 'linear-gradient(to bottom right, rgba(140,255,0,0.2),rgba(0,122,255,0.3))',
+    border:'none',
+    
+    // background: 'transparent'
+  },
   desktop: {
     [theme.breakpoints.up('sm')]: {
       display: 'none',

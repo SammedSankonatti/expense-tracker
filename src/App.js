@@ -5,6 +5,8 @@ import Details from './components/Details/Details'
 import useStyles from './styles';
 import Main from './components/Main/Main';
 
+import {PushToTalkButton, PushToTalkButtonContainer, ErrorPanel } from '@speechly/react-ui'
+
 function App() {
   const classes = useStyles();
   return (
@@ -23,8 +25,12 @@ function App() {
                 <Details title="Expense" />
             </Grid>
         </Grid>
+        <PushToTalkButtonContainer>
+            <PushToTalkButton />
+            <ErrorPanel />
+        </PushToTalkButtonContainer>
     </div>
   )
 }
 
-export default App
+export default App;
